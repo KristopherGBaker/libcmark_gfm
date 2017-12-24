@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A288C74B1FEF4F6D00667F4A"
-               BuildableName = "libcmark_gfm_iOS.framework"
+               BuildableName = "libcmark_gfm.framework"
                BlueprintName = "libcmark_gfm-iOS"
                ReferencedContainer = "container:libcmark_gfm.xcodeproj">
             </BuildableReference>
@@ -48,7 +48,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A288C74B1FEF4F6D00667F4A"
-            BuildableName = "libcmark_gfm_iOS.framework"
+            BuildableName = "libcmark_gfm.framework"
             BlueprintName = "libcmark_gfm-iOS"
             ReferencedContainer = "container:libcmark_gfm.xcodeproj">
          </BuildableReference>
@@ -66,7 +66,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A288C74B1FEF4F6D00667F4A"
-            BuildableName = "libcmark_gfm_iOS.framework"
+            BuildableName = "libcmark_gfm.framework"
             BlueprintName = "libcmark_gfm-iOS"
             ReferencedContainer = "container:libcmark_gfm.xcodeproj">
          </BuildableReference>

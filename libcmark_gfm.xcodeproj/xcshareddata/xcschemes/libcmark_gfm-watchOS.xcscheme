@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A2BD077F1FEF6B65005E1FC7"
-               BuildableName = "libcmark_gfm_watchOS.framework"
+               BuildableName = "libcmark_gfm.framework"
                BlueprintName = "libcmark_gfm-watchOS"
                ReferencedContainer = "container:libcmark_gfm.xcodeproj">
             </BuildableReference>
@@ -48,7 +48,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A2BD077F1FEF6B65005E1FC7"
-            BuildableName = "libcmark_gfm_watchOS.framework"
+            BuildableName = "libcmark_gfm.framework"
             BlueprintName = "libcmark_gfm-watchOS"
             ReferencedContainer = "container:libcmark_gfm.xcodeproj">
          </BuildableReference>
@@ -66,7 +66,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A2BD077F1FEF6B65005E1FC7"
-            BuildableName = "libcmark_gfm_watchOS.framework"
+            BuildableName = "libcmark_gfm.framework"
             BlueprintName = "libcmark_gfm-watchOS"
             ReferencedContainer = "container:libcmark_gfm.xcodeproj">
          </BuildableReference>

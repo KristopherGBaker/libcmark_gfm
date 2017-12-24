@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A2BD078C1FEF6B76005E1FC7"
-               BuildableName = "libcmark_gfm_tvOS.framework"
+               BuildableName = "libcmark_gfm.framework"
                BlueprintName = "libcmark_gfm-tvOS"
                ReferencedContainer = "container:libcmark_gfm.xcodeproj">
             </BuildableReference>
@@ -48,7 +48,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A2BD078C1FEF6B76005E1FC7"
-            BuildableName = "libcmark_gfm_tvOS.framework"
+            BuildableName = "libcmark_gfm.framework"
             BlueprintName = "libcmark_gfm-tvOS"
             ReferencedContainer = "container:libcmark_gfm.xcodeproj">
          </BuildableReference>
@@ -66,7 +66,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A2BD078C1FEF6B76005E1FC7"
-            BuildableName = "libcmark_gfm_tvOS.framework"
+            BuildableName = "libcmark_gfm.framework"
             BlueprintName = "libcmark_gfm-tvOS"
             ReferencedContainer = "container:libcmark_gfm.xcodeproj">
          </BuildableReference>
