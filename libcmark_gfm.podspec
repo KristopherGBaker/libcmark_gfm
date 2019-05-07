@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "libcmark_gfm"
-  s.version      = "0.29.0"
+  s.version      = "0.29.1"
   s.summary      = "Swift compatible framework for cmark-gfm"
 
   s.description  = <<-DESC
