@@ -74,7 +74,7 @@ static cmark_node *open_tasklist_item(cmark_syntax_extension *self,
   cmark_node_set_syntax_extension(parent_container, self);
   cmark_parser_advance_offset(parser, (char *)input, 3, false);
 
-  // Spec says that either upper or lower case x means completed.
+  // Either an upper or lower case X means the task is completed.
   if (strstr((char*)input, "[x]") || strstr((char*)input, "[X]")) {
     parent_container->as.opaque = (void *)CMARK_TASKLIST_CHECKED;
   } else {
@@ -121,6 +121,15 @@ static void html_render(cmark_syntax_extension *extension,
   }
 }
 
+static const char *xml_attr(cmark_syntax_extension *extension,
+                            cmark_node *node) {
+  if ((int)node->as.opaque == CMARK_TASKLIST_CHECKED) {
+    return " completed=\"true\"";
+  } else {
+    return " completed=\"false\"";
+  }
+}
+
 cmark_syntax_extension *create_tasklist_extension(void) {
   cmark_syntax_extension *ext = cmark_syntax_extension_new("tasklist");
 
@@ -131,6 +140,7 @@ cmark_syntax_extension *create_tasklist_extension(void) {
   cmark_syntax_extension_set_commonmark_render_func(ext, commonmark_render);
   cmark_syntax_extension_set_plaintext_render_func(ext, commonmark_render);
   cmark_syntax_extension_set_html_render_func(ext, html_render);
+  cmark_syntax_extension_set_xml_attr_func(ext, xml_attr);
 
   return ext;
 }
