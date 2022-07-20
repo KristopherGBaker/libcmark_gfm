@@ -15,11 +15,11 @@
 	<key>CFBundlePackageType</key>
 	<string>FMWK</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>0.29.4</string>
 	<key>CFBundleVersion</key>
 	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2017 Kristopher Baker. All rights reserved.</string>
+	<string>Copyright © 2022 Kristopher Baker. All rights reserved.</string>
 	<key>NSPrincipalClass</key>
 	<string></string>
 </dict>
