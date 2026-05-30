@@ -1,8 +1,10 @@
 # libcmark_gfm
 
-Swift compatible framework for [cmark-gfm](https://github.com/github/cmark). Works with CocoaPods, Carthage, and the Swift Package Manager.
+> **⚠️ This project is archived and no longer maintained.**
+>
+> For a more current, actively maintained option, consider [swift-cmark](https://github.com/swiftlang/swift-cmark) from the Swift project. The repository remains available for reference.
 
-[![](https://travis-ci.org/KristopherGBaker/libcmark_gfm.svg?branch=master)](https://travis-ci.org/KristopherGBaker/libcmark_gfm)
+Swift compatible framework for [cmark-gfm](https://github.com/github/cmark). Works with CocoaPods, Carthage, and the Swift Package Manager.
 
 You can use libcmark_gfm directly, or consider using [Maaku](https://github.com/KristopherGBaker/Maaku).
 
